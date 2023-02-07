@@ -1,0 +1,21 @@
+{
+  "name": "aquarium",
+  "displayName": "Aquarium",
+  "description": "A simple vibrant dark theme. As colorful as the sea",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aquarium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aquarium-color-theme.json"
+      }
+    ]
+  }
+}
