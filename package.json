@@ -3,12 +3,27 @@
   "displayName": "Aquarium",
   "description": "A simple vibrant dark theme. As colorful as the sea",
   "version": "0.0.1",
+  "author": {
+		"name": "Detective Pikachu",
+		"email": "frenzyexists@gmail.com"
+	},
+  "license": "MIT",
+	"repository": {
+		"url": "https://github.com/FrenzyExists/aquarium-vscode"
+	},
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"minimal",
+		"aesthetic",
+		"pastel",
+		"soft",
+    "dark"
+	],
   "contributes": {
     "themes": [
       {
