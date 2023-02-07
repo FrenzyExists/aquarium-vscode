@@ -17,5 +17,8 @@
         "path": "./themes/Aquarium-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "pinecone": "^0.1.0"
   }
 }
