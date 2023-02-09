@@ -1,28 +1,77 @@
-# Welcome to your VS Code Extension
+# Aquarium
 
-## What's in the folder
+<p align="center">
+    <a href="https://github.com/FrenzyExists" target="_blank">
+        <img src="pictures/banner.png" alt="Aquarium Banner" width="630"/>
+    </a>
+</p>
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Aquarium-color-theme.json` - the color theme definition file.
+<p align="center">
+    <a href="https://github.com/FrenzyExists/aquarium-vscode/stargazers"><img src="https://img.shields.io/github/stars/FrenzyExists/aquarium-vscode?colorA=20202a&colorB=cddbf9&style=for-the-badge&logo=starship style=flat-square"></a>
+    <a href="https://github.com/FrenzyExists/aquarium-vscode/releases/latest"><img src="https://img.shields.io/github/release/FrenzyExists/aquarium-vscode.svg?&style=for-the-badge&label=Release&logo=github&logoColor=eceff4&colorA=20202a&colorB=f6bbe7"/></a> 
+    <a href="https://github.com/FrenzyExists/aquarium-vscode/issues"><img src="https://img.shields.io/github/issues/FrenzyExists/aquarium-vscode?colorA=20202a&colorB=e6dfb8&style=for-the-badge&logo=bugatti"></a>
+    <a href="https://github.com/FrenzyExists/aquarium-vscode/network/members"><img src="https://img.shields.io/github/forks/FrenzyExists/aquarium-vscode?colorA=20202a&colorB=ebb9b9&style=for-the-badge&logo=github"></a>
+</p>
 
-## Get up and running straight away
+<br/>
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `File > Preferences > Color Themes` and pick your color theme.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+<p align="center">A colorful, dark cozy <a href="https://github.com/VSCodium/vscodium">Vscode</a> colorscheme.</p>
 
-## Make changes
+![](./pictures/pic1.png)
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+Originally a [Neovim](https://github.com/FrenzyExists/aquarium-vim) theme. I wish for this theme to be portable on all kinds of platforms. At the time of this writting is ported to:
 
-## Adopt your theme to Visual Studio Code
+- Neovim
+- Nvchad
+- Vscode (oh hey its this one!)
+- Kitty terminal
+- Alacritty terminal
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+Some of these ports are available at [my dotfiles](https://github.com/FrenzyExists/dotfiles).
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
-## Install your extension
+## Getting Started
+At the moment the theme is only available here at this repo. I'm not a big fan of Azure basically asking for me to give them my soul.
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+### Quick Start
+
+Download the .vsix file and under the `...` at the extensions section at the top you'll get a menu. Click on `Install from .vsix` and click the .vsix file.
+
+## Languages
+The theme is taylored for
+
+- Javascript + JSX
+- Rust
+- C++
+- JSON
+- Python
+- Ruby
+- Shell
+- HTML
+- C#
+- CSS
+- YAML
+- Markdown
+
+
+### Recommended Settings
+
+```
+{
+    "editor.cursorSmoothCaretAnimation" : true,
+    "editor.cursorBlinking": "expand",
+    "editor.overviewRulerBorder": false,
+    "editor.showFoldingControls" :"mouseover",
+    "editor.renderWhitespace": "none",
+    "editor.fontFamily": "Input Mono, SFMono-UltraLight, SourceCodePro-Light, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": "200",
+    "window.titleBarStyle":"custom",
+    "editor.quickSuggestionsDelay": 0,
+}
+```
+
+<p align="center">
+    <a href="https://github.com/frenzyexists/aquarium-vscode/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-orange.svg?colorA=20202A&colorB=b8dceb&style=for-the-badge&logo=mitsubishi">
+    </a>
+</p>
